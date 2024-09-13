@@ -12,12 +12,8 @@ class QuotesApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/':(context)=>const HomePage(),
+        '/':(context)=>const Homepage(),
       },
     );
   }
-}
-
-
-
 }

@@ -11,7 +11,7 @@ Widget emailAddress({required String email,required String image}) {
       ),
       Text(
         email,
-        style: const TextStyle(fontSize: 12),
+        style: const TextStyle(fontSize: 15),
       ),
     ],
   );

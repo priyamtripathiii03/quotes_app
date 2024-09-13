@@ -19,8 +19,8 @@ class _GriedviewMethodState extends State<GriedviewMethod> {
         physics: const BouncingScrollPhysics(),
         itemCount: QuotesView.length,
         itemBuilder: (context,index)=>Card(
-          color: Colors.yellow.shade900,
-          elevation: 8,
+          color: Colors.grey.shade200,
+          elevation: 3,
           child: ListTile(
             title: Text(QuotesView[index].quote,overflow: TextOverflow.ellipsis,maxLines: 4,),
             subtitle: Text(QuotesView[index].author),

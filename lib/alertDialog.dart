@@ -16,11 +16,11 @@ AlertDialog alertDialog_method(BuildContext context) {
       Column(
         children: [
           const Divider(),
-          emailAddress(email: 'priyamtripathiii03@gamil.com'),
+          emailAddress(email: 'priyamtripathiii03@gamil.com', image: ''),
           const SizedBox(height: 10,),
-          emailAddress(email: 'deeppatel01@gail.com'),
+          emailAddress(email: 'deeppatel01@gail.com', image: ''),
           const SizedBox(height: 10,),
-          emailAddress(email: 'rishidadich2003@gmail.com'),
+          emailAddress(email: 'rishidadich2003@gmail.com', image: ''),
           const SizedBox(height: 10,),
           const Divider(),
           Row(
